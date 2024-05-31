@@ -6,10 +6,10 @@ body {
 
 .grid__container {
     display: grid;
-    grid-gap: 15%;
+    grid-gap: 2%;
     padding: 15%;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     /*float: inline-block;*/
 }
 
@@ -29,28 +29,28 @@ body {
 .grid__third {
     flex-shrink: 0;
     background: #55A630;
-    grid-row: 3 / 4;
+    grid-row: 4 / 6;
     grid-column: 1 / 2;
 }
 
 .grid__forth {
     flex-shrink: 0;
     background: #80B918;
-    grid-row: 1 / 3;
-    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    grid-column: 2 / 4;
 }
 
 .grid__fifth {
     flex-shrink: 0;
     background: #AC0;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
     grid-column: 2 / 3;
 }
 
 .grid__sixth {
     flex-shrink: 0;
     background: #BFD200;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
     grid-column: 2 / 3;
     
 }
@@ -58,43 +58,43 @@ body {
 .grid__seventh {
     flex-shrink: 0;
     background: #D4D700;
-    grid-row: 3 / 4;
-    grid-column: 3 / 4;
+    grid-row: 4 / 6;
+    grid-column: 3 / 5;
 }
 
 .grid__eigth {
     flex-shrink: 0;
     background: #DDDF00;
     grid-row: 1 / 2;
-    grid-column: 3 / 4;
+    grid-column: 4 / 6;
 }
 
 .grid__ninth {
     flex-shrink: 0;
     background: #EEEF20;
     grid-row: 2 / 3;
-    grid-column: 3 / 4;
+    grid-column: 4 / 6;
 }
 
 .grid__tenth {
     flex-shrink: 0;
     background: #FFFF3F;
     grid-row: 3 / 4;
-    grid-column: 3 / 4;
+    grid-column: 4 / 6;
 }
 
 .grid__eleventh {
     flex-shrink: 0;
     background: #007F5F;
-    grid-row: 4 / 5;
-    grid-column: 3 / 4;
+    grid-row: 4 / 6;
+    grid-column: 5 / 6;
 }
 
 .grid__twelve {
     flex-shrink: 0;
     background: #9BC1BC;
-    grid-row: 4 / 5;
-    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    grid-column: 1 / 6;
     color: #000;
     font-family: "Montserrat", sans-serif;
     font-size: 64%;
